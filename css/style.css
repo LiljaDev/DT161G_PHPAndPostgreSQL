@@ -1,0 +1,140 @@
+/*******************************************************************************
+ * Projekt, Kurs: DT161G
+ * File: style.css
+ * Desc: Style sheets for Projekt
+ * 
+ * Johan Lilja
+ * joli1407
+ * joli1407@student.miun.se
+ ******************************************************************************/
+header, main, section, article, aside, nav, footer {
+    display: block;
+
+    overflow:hidden;
+}
+
+nav{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-right: thin solid #c7c7c7;
+    float: left;
+    width: 10em;
+    height:auto;
+    margin-left: 2em;
+    margin-right: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 20em;
+    overflow: hidden;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+#imageDiv{
+    width: 50em;
+}
+
+#introduction{
+
+    padding-top: 0.5em;
+    display:block;
+    margin-left: 2em;
+    margin-top: 0.5em;
+}
+
+h1{
+    margin: 1em;
+}
+
+h3{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 1em;
+
+}
+
+h4{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 1em;
+}
+
+#loginForm{
+    border-top: thin solid #c7c7c7;
+    border-bottom: thin solid #c7c7c7;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0em;
+}
+
+#logout{
+    border-top: thin solid #c7c7c7;
+    border-bottom: thin solid #c7c7c7;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0em;
+}
+
+#userCategoryList{
+    padding-top: 0.5em;
+    display:block;
+    margin-left: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+#categoryCreationForm{
+    padding-top: 0em;
+    display:block;
+    margin-left: 2em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+}
+#categoryDeletionForm{
+    padding-top: 0em;
+    display:block;
+    margin-left: 2em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+}
+#imageUploadForm{
+    padding-top: 0em;
+    display:block;
+    margin-left: 2em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+}
+
+#userCreationForm{
+    padding-top: 0em;
+    display:block;
+    margin-left: 2em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+}
+
+#userDeletionForm{
+    padding-top: 0em;
+    display:block;
+    margin-left: 2em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+}
+
+#adminUserList{
+    padding-top: 0.5em;
+    display:block;
+    margin-left: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+ul{
+    margin:0em;
+}
+
